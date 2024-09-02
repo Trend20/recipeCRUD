@@ -15,12 +15,11 @@ type Todo struct {
 var todos []Todo
 
 func main() {
-
 	//	define routes
 	http.HandleFunc("/todos", getTodos)
 
 	//	start the server and listen
-	log.Fatal(http.ListenAndServe(":8000", nil))
+	log.Fatal(http.ListenAndServe(":9000", nil))
 }
 
 // define getTodos controller

@@ -1,3 +1,3 @@
-module github.com/Trend20/rest1
+module github.com/Trend20/recipeCRUD
 
 go 1.22.6
